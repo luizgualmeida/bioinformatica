@@ -1,7 +1,7 @@
 ---
 title: "Limpeza e Análise de Dados de Sequenciamento Sanger"
 subtitle: "Do arquivo AB1 bruto à sequência consenso alinhada — Aplicação ao gene *recA* de bactérias"
-author: "Adaptado do tutorial Galaxy Training Network"
+author: "Beatriz Baldin e Luiz Gustavo de Almeida Adaptado de Coline Royaux, 2026" 
 date: today
 lang: pt-BR
 format:
@@ -9,6 +9,7 @@ format:
     toc: true
     toc-depth: 3
     toc-title: "Conteúdo"
+    toc-location: left
     number-sections: true
     theme: cosmo
     highlight-style: github
