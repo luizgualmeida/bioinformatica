@@ -247,7 +247,7 @@ Os primers forward e reverse precisam de tratamentos diferentes: o
 primer **reverse** deve ter sua sequência reverse-complementada para
 ficar na mesma orientação que as sequências forward.
 
-![](images/Captura de tela 2026-02-24 112316.png)
+![](images/Captura%20de%20tela%202026-02-24%20112316.png)
 
 ### 2.1 --- Filtrar primer Forward
 
@@ -311,7 +311,7 @@ Depois: ATGCAGATCTTCG
 ```
 :::
 
-![](images/Captura de tela 2026-02-24 112409.png)
+![](images/Captura%20de%20tela%202026-02-24%20112409.png)
 
 ------------------------------------------------------------------------
 
@@ -344,13 +344,13 @@ Passos:
 ```
 :::
 
-![](images/Captura de tela 2026-02-24 112505.png)
+![](images/Captura%20de%20tela%202026-02-24%20112505.png)
 
 ------------------------------------------------------------------------
 
 ## Passo 3 --- Preparação das Sequências AB1 {#sec-seqs}
 
-![](images/Captura de tela 2026-02-24 112634.png)
+![](images/Captura%20de%20tela%202026-02-24%20112634.png)
 
 ### 3.1 --- Descompactar o arquivo ZIP
 
@@ -458,7 +458,7 @@ coleções separadas a partir da coleção original de AB1s:
 
 : Parâmetros para filtrar coleções {#tbl-filter-col}
 
-![](images/Captura de tela 2026-02-24 112742.png)
+![](images/Captura%20de%20tela%202026-02-24%20112742.png)
 
 ------------------------------------------------------------------------
 
@@ -510,7 +510,7 @@ ATGCAGATCTTCGAAAAG...TGCTTG
 ```
 :::
 
-![](images/Captura de tela 2026-02-24 112805.png)
+![](images/Captura%20de%20tela%202026-02-24%20112805.png)
 
 ------------------------------------------------------------------------
 
@@ -527,7 +527,7 @@ ATGCAGATCTTCGAAAAG...TGCTTG
 Pelo mesmo motivo explicado para os primers (seção 2.4), as sequências
 lidas com o primer reverse precisam ser reverse-complementadas.
 
-![](images/Captura de tela 2026-02-24 112823.png)
+![](images/Captura%20de%20tela%202026-02-24%20112823.png)
 
 ------------------------------------------------------------------------
 
@@ -560,7 +560,7 @@ ATGCAGATCTTCG...
 HHHHIIIIIIIG...
 ```
 
-![](images/Captura de tela 2026-02-24 112859.png)
+![](images/Captura%20de%20tela%202026-02-24%20112859.png)
 
 ------------------------------------------------------------------------
 
@@ -616,7 +616,7 @@ Consenso:ATGCAGATCTTCGAAAAGTTCACGTTGAC ← sequência final confiável
 ```
 :::
 
-![](images/Captura de tela 2026-02-24 112919.png)
+![](images/Captura%20de%20tela%202026-02-24%20112919.png)
 
 ------------------------------------------------------------------------
 
@@ -719,14 +719,14 @@ pode haver: - Contaminação da amostra - Erro de identificação do
 isolado - Primers amplificando uma região diferente
 :::
 
-![](images/Bacillus velezensis.png)
+![](images/Bacillus%20velezensis.png)
 
 ------------------------------------------------------------------------
 
 # Resumo das Ferramentas Utilizadas {#sec-tools}
 
 | Ferramenta                      | Função                               | Entrada           | Saída                |
-|--------------------|------------------|------------------|------------------|
+|-------------------|------------------|------------------|------------------|
 | `Unzip`                         | Descompactar arquivos                | `.zip`            | Coleção de AB1s      |
 | `Filter FASTA`                  | Selecionar sequências por nome       | FASTA com primers | FASTA filtrado       |
 | `Degap.seqs`                    | Remover gaps (`-`) das sequências    | FASTA             | FASTA sem gaps       |
