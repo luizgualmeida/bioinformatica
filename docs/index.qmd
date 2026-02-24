@@ -1,7 +1,9 @@
 ---
 title: "Limpeza e Análise de Dados de Sequenciamento Sanger"
-subtitle: "Do arquivo AB1 bruto à sequência consenso alinhada — Aplicação ao gene *recA* de bactérias"
-author: "Beatriz Baldin e Luiz Gustavo de Almeida Adaptado de Coline Royaux, 2026" 
+subtitle: "Do arquivo AB1 bruto à sequência consenso alinhada: Aplicação ao gene *recA* de bactérias"
+author:
+  - name: "Beatriz Baldin"
+  - name: "Luiz Gustavo de Almeida" 
 date: today
 lang: pt-BR
 format:
@@ -26,7 +28,9 @@ editor:
   markdown: 
     wrap: 72
 ---
-
+::: {style="font-size: 0.8em; color: gray; margin-top: -1em;"}
+*Adaptado de Coline Royaux (Galaxy Training Network), 2026*
+:::
 ------------------------------------------------------------------------
 
 # Introdução {#sec-intro}
